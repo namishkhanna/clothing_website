@@ -1,0 +1,99 @@
+body, ul, li, p, a, label, input, div {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+}
+.h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px !important;
+  font-weight: 200 !important;
+}
+.h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px !important;
+  font-weight: 300;
+}
+.h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px !important;
+}
+
+.logo { font-weight: 500 !important;}
+.text-warning {  color: #ede861 !important;}
+.text-muted { color: #bcbcbc !important;}
+.text-success { color: #72c0ce !important;}
+.text-light { color: #cfd6e1 !important;}
+.bg-dark { background-color: #212934 !important;}
+.bg-light { background-color: #e9eef5 !important;}
+.bg-black { background-color: #1d242d !important;}
+.bg-success { background-color: #72c0ce !important;}
+.btn-success {
+  background-color: #72c0ce !important;
+  border-color: #72c0ce !important;
+}
+
+#main_nav_top { min-height: 40px;}
+#main_nav_top * { font-size: .9em !important;}
+#main_main_nav a { color: #212934;}
+#main_main_nav a:hover { color: #72c0ce;}
+#main_main_nav .navbar .nav-icon { margin-right: 20px;}
+
+
+#template-khanna-clothing-carousel { background: #efefef !important;}
+
+#template-khanna-clothing-carousel .carousel-indicators li {
+  margin-top: -50px;
+  background-color: #72c0ce;
+}
+#template-khanna-clothing-carousel .carousel-control-next i,
+#template-khanna-clothing-carousel .carousel-control-prev i {
+  color: #72c0ce !important;
+  font-size: 2.8em !important;
+}
+
+.services-icon-wap {transition: .3s;}
+.services-icon-wap:hover, .services-icon-wap:hover i {color: #fff;}
+.services-icon-wap:hover {background: #72c0ce;}
+
+.leaflet-control a, .leaflet-control { font-size: 10px !important;}
+.form-control { border: 1px solid #e8e8e8;}
+
+#template-khanna a { color: #dcdde1;}
+#template-khanna a:hover { color: #72c0ce;}
+#template-khanna ul.footer-link-list li { padding-top: 10px;}
+#template-khanna ul.footer-icons li {
+  width: 2.6em;
+  height: 2.6em;
+  line-height: 2.6em;
+}
+#template-khanna ul.footer-icons li:hover {
+  background-color: #cfd6e1;
+  transition: .5s;
+}
+#template-khanna ul.footer-icons li:hover i {
+  color: #212934;
+  transition: .5s;
+}
+#template-khanna .border-light { border-color: #2d343f !important;}
+
+.product-wap .h3, .product-wap li, .product-wap i, .product-wap p {
+  font-size: 12px !important;
+}
+.product-wap .product-color-dot {
+  width: 6px;
+  height: 6px;
+}
+
+@media (min-width: 768px) {
+  #main_main_nav .navbar-nav {max-width: 450px;}
+}
+
+@media (min-width: 992px) {
+  #main_main_nav .navbar-nav {max-width: 550px;}
+  #template-khanna-clothing-carousel .carousel-item {min-height: 30rem !important;}
+  .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {font-size: 18px !important;}
+  .product-wap .product-color-dot {
+    width: 12px;
+    height: 12px;
+  }
+}
